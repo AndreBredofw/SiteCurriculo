@@ -1,0 +1,259 @@
+body {
+    margin: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.div-horizontal {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 100%;
+}
+
+.menu-lateral {
+    width: 15%;
+    height: 100%;
+    background-color: red;
+}
+
+.menu {
+    height: 40%;
+    text-align: center;
+    color: white;
+    font-family: 'PT Sans', sans-serif;
+    font-size: 19px;
+}
+
+.link-menu {
+    color: white !important;
+    text-decoration: none;
+}
+
+.link-menu:hover {
+    color: black !important;
+}
+
+.conteudo-principal {
+    width: 85%;
+    font-family: 'Big Shoulders Display', cursive;
+    font-family: 'Fira Mono', monospace;
+    overflow-y: scroll;
+    color: black;
+}
+
+.div-espacamento {
+    height: 30%;
+}
+
+.div-imagem {
+    margin-bottom: 25px;
+}
+
+.imagem-perfil {
+    border-radius: 100%;
+    border: 10px solid black;
+}
+
+.titulo {
+    font-family: 'Big Shoulders Display', cursive;
+    font-size: 76px;
+    color: black!important;
+}
+
+.texto-verde
+ {
+    color: green !important;
+}
+.texto-azul
+ {
+    color: blue !important;
+}
+
+.subtitulo {
+    font-size: 28px !important;
+}
+
+.descricao-perfil {
+    width: 70%;
+}
+
+.sobre {
+    margin-left: 30px;
+    margin-top: 200px;
+    margin-bottom: 200px;
+}
+
+.icone-rede-social {
+    font-size: 32px;
+    background-color: red;
+    color: white;
+    margin-right: 30px;
+    border-radius: 100%;
+    width: 30px;
+    border: 15px solid red;
+    text-align: center;
+    cursor: pointer;
+}
+
+.link-rede-social {
+    color: white !important;
+    text-decoration: none;
+}
+
+.icone-rede-social:hover {
+    border: 15px solid blue;
+    background-color: blue;
+}
+
+.redes-sociais {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+}
+.divisor{
+    width: 100%;
+    height: 1px;
+    background-color: grey;
+}
+.escolaridades{
+    margin-left: 30px;
+    margin-top: 60px;
+    margin-bottom: 50px;
+}
+.escolaridade{
+    width: 70%;
+    margin-top: 65px;
+    position: relative;
+}
+.segundo-titulo{
+    font-family: 'Big Shoulders Display', cursive;
+    font-weight: bold;
+    font-size: 46px;
+    margin-bottom: 50px;
+    color: black!important;
+}
+.escolaridade-titulo{
+    font-family: 'Big Shoulders Display', cursive;
+    font-weight: bold;
+    font-size: 28px;
+    color: black!important;
+}
+.escolaridade-subtitulo{
+    font-family: 'Big Shoulders Display', cursive;
+    font-weight: bold;
+    font-size: 23px;
+    color: grey;
+}
+.escolaridade-data{
+    position:absolute;
+    top: 0px;
+    right: 0px;
+}
+.terceiro-titulo{
+    font-family: 'Big Shoulders Display', cursive;
+    font-weight: bold;
+    font-size: 46px;
+    margin-bottom: 50px;
+    color: black!important;
+}
+.hobbie{
+    margin-left: 30px;
+    margin-top: 60px;
+    margin-bottom: 300px;
+}
+.hobbies{
+    width: 70%;
+    margin-top: 65px;
+}
+.hobbies-titulo{
+    font-family: 'Big Shoulders Display', cursive;
+    font-weight: bold;
+    font-size: 28px;
+    color: grey!important;
+}
+.hobbies-nomes{
+    font-family: 'Big Shoulders Display', cursive;
+    font-weight: bold;
+    font-size: 25px;
+    color: black!important;
+}
+.hobbies-icones {
+    margin-top: 40px;
+    margin-bottom: 40px;
+    font-size: 48px;
+    display: flex;
+    flex-direction: row;
+}
+
+.hobbies-icone {
+    margin-right: 35px;
+}
+
+.fa-playstation:hover {
+    color: blue !important;
+}
+
+.fa-bicycle:hover {
+    color: #66CDAA !important;
+}
+
+.fa-futbol:hover {
+    color: red !important;
+}
+
+.fa-tv:hover {
+    color: yellow !important;
+}
+
+.fa-running:hover {
+    color: green !important;
+}
+
+.quarto-titulo{
+    font-family: 'Big Shoulders Display', cursive;
+    font-weight: bold;
+    font-size: 46px;
+    margin-bottom: 50px;
+    color: black!important;
+}
+
+.habilidade{
+    margin-left: 30px;
+    margin-top: 60px;
+    margin-bottom: 300px;
+}
+.habilidades{
+    width: 70%;
+    margin-top: 65px;
+}
+
+.interesse{
+    margin-left: 30px;
+    margin-top: 60px;
+    margin-bottom: 350px;
+}
+
+.interesses{
+    width: 70%;
+    margin-top: 65px;
+}
+
+.quinto-titulo{
+    font-family: 'Big Shoulders Display', cursive;
+    font-weight: bold;
+    font-size: 46px;
+    margin-bottom: 50px;
+    color: black!important;
+}
+
+.interesses-titulo{
+    font-family: 'Big Shoulders Display', cursive;
+    font-weight: bold;
+    font-size: 28px;
+    color: grey!important;
+}
+    
+    
+
+
